@@ -1,0 +1,35 @@
+2019-08-04 11:23:12.609  INFO 14432 --- [main] co.udea.heroes.api.App                   : Starting App on JDuvancho with PID 14432 (started by JDuvancho in E:\Programación\Intellij IDEA\heroes_api_201901)
+2019-08-04 11:23:12.638  INFO 14432 --- [main] co.udea.heroes.api.App                   : The following profiles are active: heroku
+2019-08-04 11:23:15.751  INFO 14432 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-04 11:23:16.044  INFO 14432 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 277ms. Found 1 repository interfaces.
+2019-08-04 11:23:16.780  INFO 14432 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$85cfd904] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-04 11:23:16.886  INFO 14432 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$5502636] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-04 11:23:17.684  INFO 14432 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-08-04 11:23:17.779  INFO 14432 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-04 11:23:17.780  INFO 14432 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-04 11:23:18.024  INFO 14432 --- [main] o.a.c.c.C.[.[localhost].[/heroes-api]    : Initializing Spring embedded WebApplicationContext
+2019-08-04 11:23:18.025  INFO 14432 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5139 ms
+2019-08-04 11:23:18.868  INFO 14432 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-08-04 11:23:21.787  INFO 14432 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-08-04 11:23:22.126  INFO 14432 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-04 11:23:22.528  INFO 14432 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-08-04 11:23:22.530  INFO 14432 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-08-04 11:23:23.498  INFO 14432 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-04 11:23:24.105  INFO 14432 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2019-08-04 11:23:24.159  INFO 14432 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000422: Disabling contextual LOB creation as connection was null
+2019-08-04 11:23:24.167  INFO 14432 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@656a3d6b
+2019-08-04 11:23:27.800  INFO 14432 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-04 11:23:31.344  WARN 14432 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-04 11:23:32.198  INFO 14432 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-08-04 11:23:32.495  INFO 14432 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-04 11:23:33.079  INFO 14432 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-08-04 11:23:33.142  INFO 14432 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-08-04 11:23:33.266  INFO 14432 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-08-04 11:23:33.985  INFO 14432 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/heroes-api'
+2019-08-04 11:23:34.002  INFO 14432 --- [main] co.udea.heroes.api.App                   : Started App in 23.333 seconds (JVM running for 26.941)
+2019-08-04 11:23:35.856  INFO 14432 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/heroes-api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-04 11:23:35.857  INFO 14432 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-08-04 11:23:35.890  INFO 14432 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 32 ms
+2019-08-04 11:23:37.260  INFO 14432 --- [http-nio-8080-exec-2] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
